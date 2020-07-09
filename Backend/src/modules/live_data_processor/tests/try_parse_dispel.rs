@@ -381,7 +381,7 @@ fn test_aura_application_success_return_predicate() {
 
     let mut summons: HashMap<u64, u64> = HashMap::new();
     summons.insert(1, 1);
-    // testing predicate in line 50 of dispel.rs: the following clauses exist in the predicate:
+    // testing predicate in line 51 of dispel.rs: the following clauses exist in the predicate:
     //  a = aura_application_event_ids.len() == dispel.un_aura_amount as usize
     //  b = !aura_application_event_ids.is_empty()
     //  c = next_timestamp as i64 - timestamp as i64 > 10
